@@ -1,0 +1,57 @@
+Concepts,MVC,,,,,,,,,,,,,,,
+,GEN,,,,,,,,,,,,,,,
+,MVVM,,,,,,,,,,,,,,,
+,MVP,,,,,,,,,,,,,,,
+,CLEAN,,,,,,,,,,,,,,,
+,CUSTOM,,,,,,,,,,,,,,,
+,"MVVM,CLEAN",,,,,,,,,,,,,,,
+,"GEN,CLEAN",,,,,,,,,,,,,,,
+,"MVP,CUSTOM",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+GEN sub-concepts,INTER,Architectural Components Organization (inter-component),,,,,,,,,,,,,,
+,AA,Architectural style adoption,,,,,,,,,,,,,,
+,AR,Architectural Requirements,,,,,,,,,,,,,,
+,INTRA,"Architectural Component Organization (intra-app, e.g. 93)",,,,,,,,,,,,,,
+,DEV,Coding Style Related,,,,,,,,,,,,,,
+,PKG,Folder/package structure,,,,,,,,,,,,,,
+,IMP,Architecture Implementation Practices(e.g. 95),,,,,,,,,,,,,,
+,DATA,Data related?(e.g. 97),,,,,,,,,,,,,,
+,LIB,Libraries (e.g. 104),,,,,,,,,,,,,,
+,CONN,Connectivity? (e.g. 106),,,,,,,,,,,,,,
+,CALL,Callbacks,,,,,,,,,,,,,,
+,ACT,Activity related,,,,,,,,,,,,,,
+,EN,Energy efficiency related,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+GEN sub-sub-concepts,SEP,Separation of concern,,,,,,,,,,,,,,
+,INT,Interface,,,,,,,,,,,,,,
+,DEP,Dependency,,,,,,,,,,,,,,
+,WHEEL,"""Reinvent the wheel"" antipattern",,,,,,,,,,,,,,
+,DAG,Dagger related,,,,,,,,,,,,,,
+,RX,RxJava related,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+CLEAN sub-themes,JAVA-ONLY,<Subject of discussion> should be implemented in pure Java,,,,,,,,,,,,,,
+,SINGLE,Single source of truth,,,,,,,,,,,,,,
+,MUL,Multiple data models,,,,,,,,,,,,,,
+,EPTVM,Everything passes through view model,,,,,,,,,,,,,,
+,CACHING,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+MVVM sub-themes,ALWMOD,Always pass through the ViewModel,,,,,,,,,,,,,,MVVM
+,PV,Views are passive and should always expose only their state.,,,,,,,,,,,,,MVVM1,Always pass through the ViewModel
+,CES,"Components should always expose only their state (ie, event + data), instead of state or data separately.",,,,,,,,,,,,,MVVM2,Views are passive and should always expose only their state.
+,DCKP,"Data Consumer knows producers, not the other way around.",,,,,,,,,,,,,MVVM3,"Components should always expose only their state (ie, event + data), instead of state or data separately."
+,DHQ,Data produced by the models should be reliable and of high quality,,,,,,,,,,,,,MVVM4,"Data Consumer knows producers, not the other way around."
+,KMSS,"Keep ViewModels as simple as possible (when needed, use transfer responsibility to other layers - like Models - or other components such as data transformers, components factories, etc.).",,,,,,,,,,,,,MVVM5,Data produced by the models should be reliable and of high quality
+,LDBN,local DB first then network.,,,,,,,,,,,,,MVVM6,"Keep ViewModels as simple as possible (when needed, use transfer responsibility to other layers - like Models - or other components such as data transformers, components factories, etc.)."
+,SST,Single source of truth for data,,,,,,,,,,,,,MVVM7,local DB first then network.
+,MAN,Networking or data access is performed only by M.,,,,,,,,,,,,,MVVM8,Single source of truth for data
+,OMOF,One data model for each feature of the app.,,,,,,,,,,,,,MVVM9,Networking or data access is performed only by M.
+,SDIM,State defined in the models only.,,,,,,,,,,,,,MVVM10,One data model for each feature of the app.
+,VMNV,"ViewModel should not refer to View-specific components (e.g., Activities), it may use for example LiveData provided by Jetpack so that activities can simply observe its changes.",,,,,,,,,,,,,MVVM11,State defined in the models only.
+,IM,"Models should be evolvable/testable independently from the rest of the app (e.g., through inversion of control)",,,,,,,,,,,,,MVVM12,"ViewModel should not refer to View-specific components (e.g., Activities), it may use for example LiveData provided by Jetpack so that activities can simply observe its changes."

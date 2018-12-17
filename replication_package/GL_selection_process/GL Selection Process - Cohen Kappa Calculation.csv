@@ -1,0 +1,17 @@
+,,Test A,,,,,
+,,"""+""","""-""",,,,
+Test B,"""+""",11,1,12,,,
+,"""-""",1,7,8,,,
+,,12,8,20,,,
+,,,,,,,0.9
+Overall agreement level,,,,0.9,,,0.52
+Cohen's Kappa,,,,0.792,,,0.79167
+,,,,,,,
+Interprettion guidelines,,,,,,,
+Kappa,Agreement level,,,,,,
+<0.01,Poor agreement,,,,,,
+0.01-0.20,Scarce Agreement,,,,,,
+0.21-0.40,Fair Agreement,,,,,,
+0.41-0.60,Moderate Agreement,,,,,,
+0.61-0.80,Substatial Agreement,,,,,,
+0.81-1.00,Almost Perfect,,,,,,

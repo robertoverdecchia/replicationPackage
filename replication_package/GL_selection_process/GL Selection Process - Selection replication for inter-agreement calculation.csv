@@ -1,0 +1,23 @@
+ID,Title,URL,Selected,I1,I2,E1,E2,E3,E4,GL-E1,GL-E2,GL-E3,GL-E4,GL-E5,GL-E6,GL-E7,Q1,Q2,Q3,Q4,Q5,Q
+GL3,Platform Architecture | Android Developers,https://developer.android.com/guide/platform/,NO,,x,,,,,,,,,,,,,,,,,0
+GL4,Building Modern apps using the Android Architecture Guidelines,https://proandroiddev.com/building-modern-apps-using-the-android-architecture-guidelines-3238fff96f14,YES,x,x,,,,,,,,,,,,,1,,0.5,1,2.5
+GL8,Android Architecture Patterns : MV( C | P | VM ) – MindOrks – Medium,https://medium.com/mindorks/android-architecture-patterns-mv-c-p-vm-4594574eeaa1,NO,x,x,,,,,,x,,,,,,1,1,,,,2
+GL13,Clean architecture for Android with Kotlin: a pragmatic approach,https://antonioleiva.com/clean-architecture-android/,YES,x,x,,,,,,,,,,,,,1,,1,1,3
+GL15,Exploring Android's Navigation Architecture Component,https://willowtreeapps.com/ideas/exploring-androids-navigation-architecture-component,YES,x,x,,,,,,,,,,,,1,1,,,,2
+GL16,Chief Architect - Android Apps on Google Play,https://play.google.com/store/apps/developer?id=Chief+Architect&hl=en,NO,,x,,,,,,,,,,,,,,,,,0
+GL17,Android Developers Blog: Android and Architecture,https://android-developers.googleblog.com/2017/05/android-and-architecture.html,YES,x,x,,,,,,,,,,,,1,1,,,,2
+GL18,Build an App with Architecture Components - Google Codelabs,https://codelabs.developers.google.com/codelabs/build-app-with-arch-components/index.html?index=..%2F..%2Findex,YES,x,x,,,,,,,,,,,,1,,1,1,,3
+GL19,Architecture - Xamarin | Microsoft Docs,https://docs.microsoft.com/en-us/xamarin/android/internals/architecture,NO,x,x,,,,x,,,,,,,,,,,,,0
+GL23,A Brief Summary of thoughts on Clean Architecture and MVP - DEV ...,https://dev.to/wahibhaq/a-brief-summary-of-thoughts-on-clean-architecture-and-mvp-48h9,YES,x,x,,,,,,,,,,,,1,,1,,,2
+GL27,The Android Arsenal - Architecture - clean-architecture-android-kotlin,https://android-arsenal.com/details/3/6851,NO,,,,,,,x,,,,,,,,,,,,0
+GL57,Create a Clean-Code App with Kotlin Coroutines and Android ...,https://blog.elpassion.com/create-a-clean-code-app-with-kotlin-coroutines-and-android-architecture-components-f533b04b5431,YES,x,x,,,,,,,,,,,,,,1,1,1,3
+GL58,Using the VIPER architecture on Android | Cheesecake Labs,https://cheesecakelabs.com/blog/using-viper-architecture-android/,YES,x,x,,,,,,,,,,,,,,,1,1,2
+GL66,Android Application Architecture – ribot labs,https://labs.ribot.co.uk/android-application-architecture-8b6e34acda65,YES,x,x,,,,,,,,,,,,,,,1,1,2
+GL71,"Android Architecture Components - Room, LiveData and ViewModel",https://blog.iamsuleiman.com/android-architecture-components-tutorial-room-livedata-viewmodel/,YES,x,x,,,,,,,,,,,,,1,,,1,2
+GL72,Android.apply{ Redux } – Inside Shazam,https://blog.shazam.com/android-apply-redux-2ad0f7355e0,YES,x,x,,,,,,,,,,,,1,1,,,,2
+GL80,Let's make an MVVM at Android | Blog | Web and mobile app ...,https://stfalcon.com/en/blog/post/android-mvvm,YES,x,x,,,,,,,,,,,,,1,,1,1,3
+GL89,Clean Architecture Generator - Plugins | JetBrains,https://plugins.jetbrains.com/plugin/8504-clean-architecture-generator,NO,,,,,,x,,,,,,,,,,,,,0
+GL90,TED MOSBY - SOFTWARE ARCHITECT | HANNES DORFMANNhannesdorfmann.com/android/mosby,http://hannesdorfmann.com/android/mosby,NO,x,x,,,,,,,,,x,,,,,,,,0
+GL92,Android Game Architecturea | poorvaj.io/android-game-architecture.html,http://apoorvaj.io/android-game-architecture.html,NO,x,x,,,,x,,,,,,,,,,,,,0
+,,,,,,,,,,,,,,,,,,,,,,
+,,Primary Studies Selected,12,,,,,,,,,,,,,,,,,,,
